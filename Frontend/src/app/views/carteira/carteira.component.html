@@ -1,0 +1,93 @@
+<div>
+
+  <div class="toolbar">
+
+    <p>
+      <mat-toolbar>
+        <span>Criar carteira</span>
+
+      </mat-toolbar>
+    </p>
+
+  </div>
+
+  <div>
+
+    <p class="selecInvestimento">
+      selecione abaixo o seu investimento:
+    </p>
+  </div>
+
+  <div>
+
+    <form class="example-form">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Buscar opções</mat-label>
+        <input matInput placeholder="opções ">
+        <mat-icon matSuffix>search</mat-icon>
+      </mat-form-field>
+    </form>
+
+  </div>
+
+
+  <div class="tab-border tabs-container">
+    <button type="button" class="tab-container">
+      <span>Renda Fixa</span></button>
+    <button type="button" class="tab-container">
+      <span>Renda Variável</span></button>
+    <button type="button" class="tab-container">
+      <span>Outros</span></button>
+  </div>
+
+  <div class="lista">
+
+    <mat-list role="list">
+      <mat-list-item role="listitem">Item 1</mat-list-item>
+      <mat-list-item role="listitem">Item 2</mat-list-item>
+      <mat-list-item role="listitem">Item 3</mat-list-item>
+    </mat-list>
+
+  </div>
+
+  <div class="carteira"> 
+    <p>
+      <mat-toolbar>
+        <span class="carteiraspan">carteira</span>
+      </mat-toolbar>
+    </p>
+    
+    <div class="chart-tabela">
+
+      <ngx-charts-advanced-pie-chart
+      [view]="view"
+      scheme="fire"
+      [results]="single"
+      [gradient]="gradient"
+      (select)="onSelect($event)"
+      (activate)="onActivate($event)"
+      (deactivate)="onDeactivate($event)"
+      >
+    </ngx-charts-advanced-pie-chart>
+  </div>
+    
+    <mat-divider class="divisorcarteira"></mat-divider>
+
+    <div class="acoes-usuario">
+      
+        <button class="reset-buttom" (click)="onResetar()">
+          Resetar
+        </button>
+        
+        <button class="adicionar-buttom">
+          Adicionar
+        </button>
+      
+
+    </div>
+
+
+
+  </div>
+
+</div>

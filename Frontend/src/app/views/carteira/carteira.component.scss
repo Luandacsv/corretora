@@ -1,0 +1,131 @@
+
+
+.selecInvestimento {
+  position: absolute;
+  padding-left: 25%;
+  padding-top: 1%;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 59%;
+  width: 100%;
+  padding-top: 50px;
+  
+}
+
+.example-full-width {
+  width: 100%;
+  margin-left: 15px;
+  position: relative;
+ 
+}
+
+.tab-border {
+  width: 100%;
+  border-bottom: 1px solid;
+}
+
+.tabs-container {
+   height: 64px;
+   display: flex;
+   align-items: center;
+   padding: 0;
+   width: 60%;
+  }
+
+ .tab-container {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Source Sans Pro,sans-serif;
+  letter-spacing: 0;
+  line-height: 18px;
+   text-transform: uppercase;
+   height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex: 1;
+    background: none;
+    border: none;
+    border-bottom: 2px
+    solid transparent;
+    transition: border .1s linear;
+    text-decoration: none;
+}
+
+.lista {
+ position:relative;
+ left: 15px;
+ top: 15px;
+ padding: 12px 0;
+ width: 59%;
+ box-sizing: border-box;
+ border: 1px solid;
+
+}
+
+.carteira {
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 16px;
+  height: 100%;
+  width: 40%;
+}
+
+.carteiraspan {
+  padding-left: 330px;
+  padding-right: 330px;
+}
+
+.divisorcarteira {
+  position:relative;
+  top: 80%;
+
+}
+
+.acoes-usuario {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex: 1;
+  position: absolute;
+  bottom: 30%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 16px;
+  justify-content: center;
+}
+
+.reset-buttom {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  height: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 2px
+   solid transparent;
+   padding: 0 15px;
+   border-right: 3px solid;
+}
+
+.adicionar-buttom {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  height: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  border-bottom: 2px
+   solid transparent;
+   padding: 0 15px;
+   
+}
